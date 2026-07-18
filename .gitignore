@@ -1,1 +1,4 @@
 reports/PBIDesktopSetup_x64.exe
+
+notebooks/.ipynb_checkpoints/
+logs/
