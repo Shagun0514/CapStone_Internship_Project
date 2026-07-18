@@ -86,6 +86,15 @@ python scripts/recommender.py Moderate
 ```
 Accepts `Low`, `Moderate`, or `High` as a risk appetite argument; returns the top 3 funds by Sharpe ratio in that risk band.
 
+## Bonus Challenges Completed
+
+| ID | Challenge | File(s) |
+|----|---|---|
+| B1 | Scheduled ETL — auto-fetch NAV every weekday at 8 PM | `scripts/schedule_nav_fetch.ps1`, `scripts/run_nav_fetch.bat` (Windows Task Scheduler) |
+| B3 | Monte Carlo simulation — 5-year NAV projection with uncertainty bands | `notebooks/06_monte_carlo_simulation.ipynb`, `reports/monte_carlo_nav_projection.png`, `reports/monte_carlo_summary.csv` |
+| B4 | Markowitz Efficient Frontier — portfolio optimization across 5 funds | `notebooks/07_efficient_frontier.ipynb`, `reports/efficient_frontier.png`, `reports/efficient_frontier_weights.csv` |
+| B5 | Automated HTML email report — weekly performance summary | `scripts/email_report.py`, `reports/weekly_report.html` |
+
 ## Key Findings
 
 - Small-cap funds carry the highest tail risk (VaR/CVaR); liquid funds the lowest — risk grades are empirically well-calibrated to realized volatility.
