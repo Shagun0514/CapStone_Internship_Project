@@ -12,7 +12,7 @@ Output: top 3 funds by Sharpe ratio within the matching risk_grade
 import sys
 import pandas as pd
 
-DATA_DIR = "data/raw"
+DATA_DIR = "../data/raw"
 
 RISK_MAP = {
     "Low": ["Low"],
